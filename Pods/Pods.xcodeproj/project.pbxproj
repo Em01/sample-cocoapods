@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F85E6A7DA2F2F764720109 /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E036ED1A89D8132C8408C89 /* AngleGradientLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0F37768010B4CFE0F46F2AF7 /* SAMGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A95805BD652DA44769099D /* SAMGradientView.h */; };
+		2099BD6A1B18DD1980E85894 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC076CF411F02AFF8B6354 /* Pods-dummy.m */; };
+		253D1E653F0AB018D509A49D /* Pods-AngleGradientLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B47FDA30ABB62ADB25F6F2 /* Pods-AngleGradientLayer-dummy.m */; };
+		38672D9E237214035F61D237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ACC8425F15A016D87033D4 /* Foundation.framework */; };
+		3BBBCF0E5B5E222EE0A51E94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ACC8425F15A016D87033D4 /* Foundation.framework */; };
+		441E8E1A63E047CC68FC95BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ACC8425F15A016D87033D4 /* Foundation.framework */; };
+		69FE6203407677C781D5CA74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7662CDAD600131E30A6D7A99 /* QuartzCore.framework */; };
+		72E6B3C4C1A62C9901AA3EFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAAF10AB20A2E4524511F7 /* UIKit.framework */; };
+		88826492785CEBA33E9FFEE2 /* AngleGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8379FFAC528514B235C60D3C /* AngleGradientLayer.h */; };
+		C42801F819D6CB100F113E02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D652AFBDFE404A1276A4762D /* CoreGraphics.framework */; };
+		C81701CEBF68C8793975057C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D652AFBDFE404A1276A4762D /* CoreGraphics.framework */; };
+		E7BD5CAF4960FE4C27D41CCE /* Pods-SAMGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A922835F8C28006C09AD7F6 /* Pods-SAMGradientView-dummy.m */; };
+		FD58A842C837A3B411373F74 /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441CBB83F132603A47946CC /* SAMGradientView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31CDB084F2A5E2E0772C4826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E9A6DABE6000CC4861BE5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA21D284C2F1627ED88EF9BC;
+			remoteInfo = "Pods-AngleGradientLayer";
+		};
+		DA9382FDAB89ECD0D0BBACF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E9A6DABE6000CC4861BE5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3768541EC941146A253DC28;
+			remoteInfo = "Pods-SAMGradientView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B47FDA30ABB62ADB25F6F2 /* Pods-AngleGradientLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngleGradientLayer-dummy.m"; sourceTree = "<group>"; };
+		0A922835F8C28006C09AD7F6 /* Pods-SAMGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAMGradientView-dummy.m"; sourceTree = "<group>"; };
+		1441CBB83F132603A47946CC /* SAMGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMGradientView.m; path = SAMGradientView/SAMGradientView.m; sourceTree = "<group>"; };
+		16ACC8425F15A016D87033D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2449D72813826B026E6A207F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44E1F9DE4E2563E52BA601C2 /* Pods-SAMGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAMGradientView-prefix.pch"; sourceTree = "<group>"; };
+		524485F547D134F49A6BFDD6 /* Pods-AngleGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngleGradientLayer.xcconfig"; sourceTree = "<group>"; };
+		54D2CD8A6C7476D389750855 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		5F679622EEFDBDA72F31C366 /* Pods-SAMGradientView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMGradientView-Private.xcconfig"; sourceTree = "<group>"; };
+		6E3BC60B9C38C31B0E9F51BE /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		6FCAAF10AB20A2E4524511F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7662CDAD600131E30A6D7A99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7E036ED1A89D8132C8408C89 /* AngleGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AngleGradientLayer.m; path = AngleGradient/AngleGradientLayer.m; sourceTree = "<group>"; };
+		7F97FF65B2496B9CDEFB2E7D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8379FFAC528514B235C60D3C /* AngleGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AngleGradientLayer.h; path = AngleGradient/AngleGradientLayer.h; sourceTree = "<group>"; };
+		91AC076CF411F02AFF8B6354 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		97A95805BD652DA44769099D /* SAMGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMGradientView.h; path = SAMGradientView/SAMGradientView.h; sourceTree = "<group>"; };
+		9D1B897784650EE051995309 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A2E5FE997A275B747B885F42 /* libPods-AngleGradientLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AngleGradientLayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE34A0B7944C690EE3CA5D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		B02978531BB39DD39CF313F4 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4530A9C76A65C1D200AE73B /* Pods-AngleGradientLayer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngleGradientLayer-Private.xcconfig"; sourceTree = "<group>"; };
+		D652AFBDFE404A1276A4762D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D886010FA1915387CC09CA8C /* Pods-AngleGradientLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngleGradientLayer-prefix.pch"; sourceTree = "<group>"; };
+		E161233125E8A57BBF9ACA18 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA85AAD088ECD5DE48929F89 /* libPods-SAMGradientView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMGradientView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5F5B7912E7D269E0478AFD /* Pods-SAMGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMGradientView.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B03E4E1D82A466275E9BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBBCF0E5B5E222EE0A51E94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39AE3A92867A17E47921D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42801F819D6CB100F113E02 /* CoreGraphics.framework in Frameworks */,
+				441E8E1A63E047CC68FC95BE /* Foundation.framework in Frameworks */,
+				72E6B3C4C1A62C9901AA3EFC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF416F8D2E7B97C9949795B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81701CEBF68C8793975057C /* CoreGraphics.framework in Frameworks */,
+				38672D9E237214035F61D237 /* Foundation.framework in Frameworks */,
+				69FE6203407677C781D5CA74 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A513E1BEB34113BDC7A6557 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5E9AD3E88C7BAC947CA2B3 /* AngleGradientLayer */,
+				65F5E506D0461D3FF87D14CA /* SAMGradientView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21AD1F79AE9E988FA20A6442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AC8CAEFE02FCD2079849CEE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DCC19FAEEBE273D2F73C6CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				524485F547D134F49A6BFDD6 /* Pods-AngleGradientLayer.xcconfig */,
+				C4530A9C76A65C1D200AE73B /* Pods-AngleGradientLayer-Private.xcconfig */,
+				05B47FDA30ABB62ADB25F6F2 /* Pods-AngleGradientLayer-dummy.m */,
+				D886010FA1915387CC09CA8C /* Pods-AngleGradientLayer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AngleGradientLayer";
+			sourceTree = "<group>";
+		};
+		36BDDD98D78571BB97160A0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F97FF65B2496B9CDEFB2E7D /* libPods.a */,
+				A2E5FE997A275B747B885F42 /* libPods-AngleGradientLayer.a */,
+				EA85AAD088ECD5DE48929F89 /* libPods-SAMGradientView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC8CAEFE02FCD2079849CEE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D652AFBDFE404A1276A4762D /* CoreGraphics.framework */,
+				16ACC8425F15A016D87033D4 /* Foundation.framework */,
+				7662CDAD600131E30A6D7A99 /* QuartzCore.framework */,
+				6FCAAF10AB20A2E4524511F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65F5E506D0461D3FF87D14CA /* SAMGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				97A95805BD652DA44769099D /* SAMGradientView.h */,
+				1441CBB83F132603A47946CC /* SAMGradientView.m */,
+				C57F7F79017A859E78E10B7B /* Support Files */,
+			);
+			path = SAMGradientView;
+			sourceTree = "<group>";
+		};
+		6D5E9AD3E88C7BAC947CA2B3 /* AngleGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8379FFAC528514B235C60D3C /* AngleGradientLayer.h */,
+				7E036ED1A89D8132C8408C89 /* AngleGradientLayer.m */,
+				2DCC19FAEEBE273D2F73C6CD /* Support Files */,
+			);
+			path = AngleGradientLayer;
+			sourceTree = "<group>";
+		};
+		6FCC37D4BF23CE62FC8895A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6056AAFAD028FA142330C95 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7078A77F3D9A23A67A121B9D = {
+			isa = PBXGroup;
+			children = (
+				2449D72813826B026E6A207F /* Podfile */,
+				21AD1F79AE9E988FA20A6442 /* Frameworks */,
+				0A513E1BEB34113BDC7A6557 /* Pods */,
+				36BDDD98D78571BB97160A0E /* Products */,
+				6FCC37D4BF23CE62FC8895A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C57F7F79017A859E78E10B7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F5B7912E7D269E0478AFD /* Pods-SAMGradientView.xcconfig */,
+				5F679622EEFDBDA72F31C366 /* Pods-SAMGradientView-Private.xcconfig */,
+				0A922835F8C28006C09AD7F6 /* Pods-SAMGradientView-dummy.m */,
+				44E1F9DE4E2563E52BA601C2 /* Pods-SAMGradientView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SAMGradientView";
+			sourceTree = "<group>";
+		};
+		F6056AAFAD028FA142330C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02978531BB39DD39CF313F4 /* Pods-acknowledgements.markdown */,
+				E161233125E8A57BBF9ACA18 /* Pods-acknowledgements.plist */,
+				91AC076CF411F02AFF8B6354 /* Pods-dummy.m */,
+				6E3BC60B9C38C31B0E9F51BE /* Pods-environment.h */,
+				54D2CD8A6C7476D389750855 /* Pods-resources.sh */,
+				AEE34A0B7944C690EE3CA5D6 /* Pods.debug.xcconfig */,
+				9D1B897784650EE051995309 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90EE8DD0FFD939C908199003 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88826492785CEBA33E9FFEE2 /* AngleGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD29F9914CA3F30EDF09E15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F37768010B4CFE0F46F2AF7 /* SAMGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87B8D6E9CF4E6C64A8A9D140 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F065779F40062C29E64E912E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				110746FB815DFCD37C1B426F /* Sources */,
+				28B03E4E1D82A466275E9BF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C44809239CDAC28EF591653 /* PBXTargetDependency */,
+				08C0F4BB4E0B230EEA048115 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 7F97FF65B2496B9CDEFB2E7D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3768541EC941146A253DC28 /* Pods-SAMGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D45CB323744B1093C93C982 /* Build configuration list for PBXNativeTarget "Pods-SAMGradientView" */;
+			buildPhases = (
+				A1D50DA01C4046E6BB7189D0 /* Sources */,
+				B39AE3A92867A17E47921D6D /* Frameworks */,
+				BCD29F9914CA3F30EDF09E15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SAMGradientView";
+			productName = "Pods-SAMGradientView";
+			productReference = EA85AAD088ECD5DE48929F89 /* libPods-SAMGradientView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA21D284C2F1627ED88EF9BC /* Pods-AngleGradientLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC968F69BDE4DA80D10239C /* Build configuration list for PBXNativeTarget "Pods-AngleGradientLayer" */;
+			buildPhases = (
+				B5645ACC275825E409AFD6C0 /* Sources */,
+				ECF416F8D2E7B97C9949795B /* Frameworks */,
+				90EE8DD0FFD939C908199003 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AngleGradientLayer";
+			productName = "Pods-AngleGradientLayer";
+			productReference = A2E5FE997A275B747B885F42 /* libPods-AngleGradientLayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E9A6DABE6000CC4861BE5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 771DA8ADC98791F7153D0208 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7078A77F3D9A23A67A121B9D;
+			productRefGroup = 36BDDD98D78571BB97160A0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B8D6E9CF4E6C64A8A9D140 /* Pods */,
+				DA21D284C2F1627ED88EF9BC /* Pods-AngleGradientLayer */,
+				B3768541EC941146A253DC28 /* Pods-SAMGradientView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110746FB815DFCD37C1B426F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2099BD6A1B18DD1980E85894 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D50DA01C4046E6BB7189D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BD5CAF4960FE4C27D41CCE /* Pods-SAMGradientView-dummy.m in Sources */,
+				FD58A842C837A3B411373F74 /* SAMGradientView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5645ACC275825E409AFD6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F85E6A7DA2F2F764720109 /* AngleGradientLayer.m in Sources */,
+				253D1E653F0AB018D509A49D /* Pods-AngleGradientLayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08C0F4BB4E0B230EEA048115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SAMGradientView";
+			target = B3768541EC941146A253DC28 /* Pods-SAMGradientView */;
+			targetProxy = DA9382FDAB89ECD0D0BBACF0 /* PBXContainerItemProxy */;
+		};
+		8C44809239CDAC28EF591653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AngleGradientLayer";
+			target = DA21D284C2F1627ED88EF9BC /* Pods-AngleGradientLayer */;
+			targetProxy = 31CDB084F2A5E2E0772C4826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F7AA61022E58F274631110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F679622EEFDBDA72F31C366 /* Pods-SAMGradientView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SAMGradientView/Pods-SAMGradientView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		02E1EB574AB8A9EC64C30F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1B897784650EE051995309 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4870E74289B83DE087806198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE34A0B7944C690EE3CA5D6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8C786F85897EB1206F4385BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4530A9C76A65C1D200AE73B /* Pods-AngleGradientLayer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AngleGradientLayer/Pods-AngleGradientLayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E5329991EAB35F6F3306F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B03959FE30FA1120B16AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F679622EEFDBDA72F31C366 /* Pods-SAMGradientView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SAMGradientView/Pods-SAMGradientView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D85D27775463401F12BA5D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC57702A2758BDC09D539AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4530A9C76A65C1D200AE73B /* Pods-AngleGradientLayer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AngleGradientLayer/Pods-AngleGradientLayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D45CB323744B1093C93C982 /* Build configuration list for PBXNativeTarget "Pods-SAMGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7AA61022E58F274631110 /* Debug */,
+				A5B03959FE30FA1120B16AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771DA8ADC98791F7153D0208 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85D27775463401F12BA5D4B /* Debug */,
+				8E5329991EAB35F6F3306F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC968F69BDE4DA80D10239C /* Build configuration list for PBXNativeTarget "Pods-AngleGradientLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C786F85897EB1206F4385BD /* Debug */,
+				FC57702A2758BDC09D539AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F065779F40062C29E64E912E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4870E74289B83DE087806198 /* Debug */,
+				02E1EB574AB8A9EC64C30F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E9A6DABE6000CC4861BE5BF /* Project object */;
+}
