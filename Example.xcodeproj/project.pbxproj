@@ -40,6 +40,7 @@
 		850ED6F41AC582E50075B02F /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850ED6F91AC582E50075B02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850ED6FA1AC582E50075B02F /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		850ED7041AC584440075B02F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		850ED6D21AC582E50075B02F = {
 			isa = PBXGroup;
 			children = (
+				850ED7041AC584440075B02F /* Podfile */,
 				850ED6DD1AC582E50075B02F /* Example */,
 				850ED6F71AC582E50075B02F /* ExampleTests */,
 				850ED6DC1AC582E50075B02F /* Products */,
