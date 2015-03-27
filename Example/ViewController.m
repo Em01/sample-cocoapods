@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import <SAMGradientView/SAMGradientView.h>
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SAMGradientView *gradient = [[SAMGradientView alloc] initWithFrame:self.view.bounds]
+                                 ;
+                                 gradient.gradientColors = @[[UIColor redColor], [UIColor orangeColor]];
+                                 [self.view addSubview:gradient];
 }
 
 - (void)didReceiveMemoryWarning {
